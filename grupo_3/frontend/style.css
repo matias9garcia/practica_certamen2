@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #339fc3;
+    width: 100%;
+    padding: 1em;
+    
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li a:link {
+    text-decoration: inherit;
+    color: inherit;
+    
+}
+
+header ul li a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    
+}
+
+
+
+#lista_inputs {
+    text-align: center;
+    padding: 1em;
+    list-style-type: none;
+    
+}
+
+#lista_inputs li input {
+    margin: 1em;
+    width: 300px;
+}
+
+#lista_estudiantes {
+    text-align: center;
+    padding: 0;
+    display: flex;
+    
+}
+
+.cliente {
+    width: 200px;
+    padding: 1em;
+    border: 0.5px;
+    border-color: rgb(43, 76, 226);
+    border-style: solid;
+    margin: auto;
+}
+
+header ul li {
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+html {
+    font-family: 'Geologica', sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+.precio {
+    color: green;
+    font-weight: bold;
+}
