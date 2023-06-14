@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica para certamen - Grupo 1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li style="font-size: larger;">Navegador Académico</li>
+            <li><a href="">Inicio</a></li>
+            <li style="color:rgb(0, 0, 0);"><a href="">Listado de estudiantes</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </header>
+    <section style="text-align: center;">
+        <h1>Ingresa un nuevo estudiante!</h1>
+        <ul id="lista_inputs" >
+            <li><label for="nombre">Nombre:</label></li>
+            <li><input type="text" name="nombre" id="nombre" placeholder="Ingrese el nombre del estudiante"></li>
+            <li><label for="nombre">Password:</label></li>
+            <li><input type="text" name="password" id="password" placeholder="Ingrese su password"></li>
+            <li><label for="nombre">Unidad Académica:</label></li>
+            <li><input type="text" name="unidad_academica" id="unidad_academica" placeholder="Ingrese su unidad académica"></li>
+            <button id="crearClienteBoton">Crear estudiante</button>
+        </ul>
+    </section>
+    <section>
+        <h1>Lista de estudiantes</h1>
+        <button id="verEstudiantesBoton">Mostrar estudiantes!</button>
+        <div style="margin-top: 3em;">
+            <div id="lista_estudiantes">
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Creado por Industrias Acme</p>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
